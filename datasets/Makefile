@@ -1,0 +1,2 @@
+laion400m:
+python download.py --parquet_dir gs://perception_multimodal_datasets/laion400M/metadata/ --project perc-dev --job_name laion400m --runner DataflowRunner --wds_dir gs://perception_multimodal_datasets/laion400M/webdataset/ --temp_location gs://perc_dev_dataflow_temp/multimodal_datasets --region us-central1
